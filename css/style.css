@@ -1,0 +1,214 @@
+*{
+	font-family: 'Roboto', sans-serif;
+}
+header{
+	position: relative;
+}
+nav{
+	height: 50px;
+	background-color: #212121;
+}
+.menu{
+	display: flex;
+	justify-content: space-between;
+	margin: 0;
+	padding: 13px  70px;
+	list-style: none;
+	position: fixed;
+}
+.menu .menu_link{
+	color: #ffffff;
+	font-size: 15px;
+	font-weight: 300;
+	text-align: center;
+}
+.menu .menu_item{
+border-right: 2px dotted black ;
+padding-right:  28px;
+padding-left: 28px;
+
+}
+/* .fixed_menu_item{
+	border-right:10px dotted gray;
+} */
+.subheader{
+	position: absolute;
+	width: 100%;
+	z-index: 1;
+	opacity: 0.6;
+	background-color:rgba(0, 0, 0, 0.6);
+}
+.subheader .subheader_logo{
+display: block;
+max-width: 100%;
+margin-top: 16px;
+}
+.subheader .subheader_official{
+	margin-top: 6px;
+	margin-bottom: 16px;
+	opacity: 0.5;
+	font-size: 13px;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: normal;
+	letter-spacing: normal;
+	text-align: left;
+	color: rgba(255, 255, 255, 0.5);
+}
+.subheader_call{
+  margin-top: 19px;
+  font-size: 12px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: #ffffff;
+}
+.subheader_phone{
+margin-top: 8px;
+font-size: 22px;
+font-weight: normal;
+font-stretch: normal;
+font-style: normal;
+letter-spacing: normal;
+text-align: right;
+color: #ffffff;
+line-height: 12px;
+}
+.subheader_btn{
+margin-top: 19px;
+width: 172px;
+height: 46px;
+box-shadow: inset 0px -3px 0 0 rgba(0, 0, 0, 0.12);
+background-image: linear-gradient(to top, #1eacc7, #4ce2ff);
+text-shadow: 0.7px 0.7px 0 rgba(0, 0, 0, 0.21);
+font-size: 14px;
+font-weight: normal;
+font-stretch: normal;
+font-style: normal;
+letter-spacing: normal;
+text-align: center;
+color: #ffffff;
+border-radius: 4px;
+}
+.promo{
+min-height: 800px;
+background: url('../img/background/Layer\ 3.jpg') center center / cover no-repeat ;
+padding: 150px 0 135px 0;
+
+}
+.promo_header{
+	color: #ffffff;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 60px;
+	line-height: 60px;
+	margin: 0;
+	text-align: center;
+}
+.promo_subheader{
+	font-weight: 700;
+	text-transform: uppercase;
+	font-stretch: normal;
+	font-style: normal;
+	font-size: 36px;
+	line-height: 36px;
+	letter-spacing: normal;
+	text-align: center;
+	color: #ffffff;
+}
+.promo_descr{
+	margin-top: 23px;
+	font-size: 18px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 24px;
+	letter-spacing: normal;
+	text-align: center;
+	color: #ffffff;
+}
+.promo_btn{
+display:block;
+width: 259px;
+height: 63px;
+margin: 118px auto;
+box-shadow: inset 0px -4px 0 0 rgba(0, 0, 0, 0.12);
+border: solid 3px rgba(0, 0, 0, 0.07);
+background-image: linear-gradient(to top, #1eacc7, #4ce2ff);
+border:none;
+border-radius: 4px;
+text-shadow: 0.7px 0.7px 0 rgba(0, 0, 0, 0.21);
+font-size: 18px;
+font-weight: 400px;
+font-stretch: normal;
+font-style: normal;
+letter-spacing: normal;
+text-align: center;
+color: #ffffff;
+}
+.eight_reason{
+	padding: 71px 0 65px 0;
+	min-height: 900px;
+	
+}
+.advantage_8{ 
+margin: 38px auto;
+font-size: 38px;
+font-weight: 700px;
+font-stretch: normal;
+font-style: normal;
+letter-spacing: normal;
+text-align: center;
+color: #222222;
+}
+.advantages{
+display: block;
+width: 112px;
+height: 24px;
+margin: 0 auto;
+background-color: #000000;
+font-size: 11px;
+font-weight: 300;
+font-stretch: normal;
+font-style: normal;
+letter-spacing: normal;
+text-align: center;
+color: #ffffff;
+line-height: 24px;
+}
+.reasons_block{
+	display: flex;
+	justify-content: center;
+	align-items:center
+}
+.reasons_round{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 113px;
+height: 113px;
+background-color: #1eacc7;
+border-radius:100%;
+margin-right: 26px;
+}
+
+.reasons_descr{
+width: 343px;
+}
+
+.reasons_subtitle{
+	font-size: 17px;
+	font-weight: 400;
+	line-height: 1.4;
+	text-align: justify;
+	font-size: 17px;
+	color: #1eacc7;
+}
+.reasons_text{
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 21px;
+	color: #202020;
+}
